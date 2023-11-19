@@ -1,0 +1,326 @@
+body{
+	background-image: url('https://i.pinimg.com/originals/64/df/bd/64dfbdb3890901a14b5396ffd4167f74.png');
+	background-size: 100%;
+	transition: all ease 1s;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+	position: fixed;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+
+}
+
+#grid{
+	grid-template-rows: repeat(4, 130);
+	grid-template-columns: repeat(4, 130px);
+	transition: all ease 1s;
+	display: grid;
+	width: 750px;
+	height: 1337px;
+	touch-action: none;
+	min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	max-width: 750px;
+}
+
+#grid1, #grid2,#grid3,#grid4{
+	max-height: 1337px;
+	max-width: 750px;
+	position: relative;
+	left: 50%;
+	opacity: 0;
+	transition: all ease 0.6s;
+	font-size: 30px;
+	font-weight: bold;
+	border-radius: 7%;
+}
+
+#grid4{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	height: 230px;
+	width: 230px;
+	top: -200px;
+	left: 70%;
+	position: relative;
+	background-size: 100%;
+	background-image: url('https://cdn-icons-png.flaticon.com/512/181/181515.png');
+}
+
+#grid3{
+	background-size: 100%;
+	background-image: url('https://icon-library.com/images/messaging-icon-png/messaging-icon-png-9.jpg');
+	grid-column-start: 4;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	height: 200px;
+	width: 200px;
+	left: 50px;
+
+}
+
+#grid2{
+	background-size: 100%;
+	background-image: url('https://www.iconpacks.net/icons/2/free-love-message-icon-2947-thumb.png');
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 2;
+	height: 200px;
+	width: 200px;
+
+}
+
+#grid1{
+	background-size: 100%;
+	background-image: url('https://icon-library.com/images/computer-icon/computer-icon-9.jpg');
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	top: 350px;
+	left: 70%;
+	height: 215px;
+	width: 200px;
+}
+
+#grid5{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 120px;
+	transition: all ease 0.5s;
+	background-size: 100%;
+	background-image: url('https://cdn.iconscout.com/icon/free/png-256/lock-1332-475024.png');
+}
+
+#grid6{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	height: 140px;
+	width: 140px;
+	position: relative;
+	left: 150px;
+	top: 40px;
+	opacity: 0;
+	transition: all ease 0.5s;
+	background-size: 100%;
+}
+
+#grid7{
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+	height: 120px;
+	width: 100px;
+	position: relative;
+	left: 100px;
+	top: 200px;
+	opacity: 0;
+	transition: all ease 0.5s;
+	background-size: 100%;
+	height: 100px;
+}
+
+#value{
+	opacity: 0;
+	height: 100px;
+	border-radius: 30px;
+	font-size: 40px;
+	left: -70px;
+	width: 100px;
+	height: 50px;
+	border: 2px solid black;
+	position: relative;
+	transition: all ease 1s;
+}
+
+#menu1, #menu2, #menu3{
+	height: 120px;
+	width: 5px;
+	position: relative;
+	margin-top: 15px;
+	margin-left: -100px;
+	top: 170px;
+	opacity: 0;
+	transition: all ease 1s;
+	background-color: black;
+}
+
+#grid8, #grid9{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	width: 150px;
+	height: 10px;
+	position: relative;
+	opacity: 0;
+	border-radius: 30px;
+	transition: all ease 1s;
+}
+
+#grid10, #grid11{
+	grid-row-start: 3;
+	grid-row-end: 3;
+	width: 150px;
+	height: 10px;
+	position: relative;
+	opacity: 0;
+	border-radius: 30px;
+	transition: all ease 1s;
+}
+
+#grid8{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	left: 120px;
+	background-size: 100%;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4di-bXC3H71EBUll_yD1f-2O2X-KjJw6wJJ4HAgKTGzwFWmbaa_Ra5wKR3r-y7-KQfas&usqp=CAU');
+}
+
+#grid9{
+	grid-column-start: 2;
+	grid-column-end: 3;	
+	left: 170px;	
+	background-size: 100%;
+	background-image: url('https://64.media.tumblr.com/686cf1c9c0559c354261de42afa590bb/3edc8ea081b9829f-7d/s1280x1920/d6b3bf196c76bbbc2d3880e5abc3547f36d8c894.jpg');
+}
+
+#grid10{
+	grid-column-start: 3;
+	grid-column-end: 3;	
+	left: 220px;
+	background-size: 100%;
+	background-image: url('https://www.silenthillmemories.net/music/osts/pics/sh2_ost_eu_01_box_front.jpg');
+}
+
+#grid11{
+	grid-column-start: 4;
+	grid-column-end: 4;	
+	left: 260px;
+	background-size: 100%;
+	background-image: url('https://overanalyses.files.wordpress.com/2014/06/laura2ea9.jpg');
+}
+
+#b1{
+	width: 150px;
+	height: 150px;
+}
+
+#block1, #block2, #block3, #block4{
+	max-width: 750px;
+	height: 250px;
+	opacity: 0;
+	border-radius: 30px;
+	transition: all ease 1s;
+	margin-top: 20px;
+} 
+
+#block1{
+	width: 350px;
+	height: 350px;
+	background-size: 100%;
+	background-image: url('https://i.gifer.com/XHqw.gif');
+}
+
+#block2{
+	width: 350px;
+	height: 350px;
+	background-size: 100%;
+	background-color: black;
+	opacity: 0.3;
+	position: relative;
+	left: 380px;
+	top: -370px;
+	opacity: 0;
+	transition: all ease 1s;
+}
+
+#block5, #block6, #block7, #block8{
+	max-width: 750px;
+	width: 750px;
+	height: 250px;
+	border-radius: 30px;
+	opacity: 0;
+	transition: all ease 0.5s;
+	margin-top: 20px;
+	position: relative;
+	border: 1px solid black;
+} 
+
+#inp1, #inp2, #inp3, #inp4{
+	transition: all ease 0.5s;
+	height: 100px;
+	font-size: 30px;
+	width: 600px;
+	position: relative;
+	top: 70px;
+	opacity: 0;
+	border-radius: 30px;
+	left: 70px;
+}
+
+#gameblock{
+	opacity: 1;
+	position: relative;
+	top: 170px;
+	left: 70px;
+}
+
+#messblock{
+	position: relative;
+	top: 170px;
+	left: 50px;
+}
+
+#favesblock{
+	position: relative;
+	top: 160px;
+	left: 90px;
+}
+
+#memblock{
+	position: relative;
+	top: 180px;
+	left: 50px;
+}
+
+#faveblock1, #faveblock2, #faveblock3{
+	height: 250px;
+	width: 750px;
+	border: 1px solid black;
+	border-radius: 50px;
+	position: relative;
+	margin-top: 20px;
+	top: -300px;
+	left: 20%;
+	transition: all ease 1s;
+}
+
+#faveblock1{
+	background-size: 100%;
+	background-image: url('https://idsb.tmgrup.com.tr/ly/uploads/images/2020/08/03/thumbs/800x531/49607.jpg');
+}
+
+#faveblock2{
+	background-size: 100%;
+	background-image: url('https://i.playground.ru/p/iQS5kBayIvq-UNlPmxBQrA.jpeg');
+}
+
+#faveblock3{
+	background-size: 100%;
+	background-image: url('https://bettornado.ru/imagenews/%D1%85%D0%BE%D1%80%D1%80%D0%B8%D0%B7%D0%BE%D0%BD.jpg');
+}
